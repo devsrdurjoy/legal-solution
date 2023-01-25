@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-image{
+    background-image: url("images/banner.png");background-position: center;background-size: cover;background-repeat: no-repeat;height: 80vh;
+}
+.card:hover{
+  background-color:#E7E7E7;
+}
+.carousel-caption{
+    bottom: 220px !important;
+    z-index: 2;
+}
+.carousel-inner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.testimonial-iamge{
+    width: 100px;
+}
+.accordion-item{
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+.navbar-toggler-icon{
+    background-color: #B68C5A!important;
+}
